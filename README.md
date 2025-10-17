@@ -1,16 +1,38 @@
-# personal_portfolio_app
+# 🌟 Personal Portfolio App
 
-A new Flutter project.
+A **Flutter-based personal portfolio app** that showcases your skills, projects, and contact details — featuring **a modern UI**, **navigation drawer**, and **light/dark theming** support.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🧭 **Navigation Drawer** – Easily switch between sections (Home, About, Projects, Contact)
+- 🎨 **Dynamic Theming** – Light and dark mode support
+- 📱 **Responsive Layout** – Works on both mobile and tablet screens
+- 💡 **Clean Architecture** – Easy to customize and extend
+- 🌐 **External Links** – Use `url_launcher` to open links or email directly
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+---
+
+## 🧰 Dependencies
+
+Make sure these are in your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
+
+###Install dependencies:
+flutter pub get
+
+🖥️ Run the App
+flutter run
+
+
+
